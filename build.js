@@ -12,7 +12,12 @@ const CNKey = ["out",
   "如果", 
   "常量",
   "让",
-  "函数"
+  "函数",
+  "在",
+  "为",
+  "抛出",
+  "大于",
+  "加一"
 ]
 const JSKey = ["console.log",
   "console.log(\"What's up\")", 
@@ -27,7 +32,13 @@ const JSKey = ["console.log",
   "if", 
   "const",
   "let",
-  "function"]
+  "function",
+  "in",
+  " = ",
+  "throw",
+  " > ",
+  "++"
+]
 
 //解释的关键字
 const CNWordMap = {};
