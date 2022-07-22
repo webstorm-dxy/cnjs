@@ -1,10 +1,10 @@
-# 一个中文的JavaScript编译器
+# 可以使用中文编写js，将其翻译成原本js文件
 ## 1.创建项目
 运行`creatProject.sh`创建项目
 ```sh
 sh ./creatProject.sh
 ```
-## 2.编译
+## 2.翻译
 使用`build.sh`+文件名编译
 ```sh
 sh ./build.sh 文件名
