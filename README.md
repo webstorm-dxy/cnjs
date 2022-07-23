@@ -1,13 +1,42 @@
-# 可以使用中文编写js，将其翻译成原本js文件
-## 1.创建项目
-运行`creatProject.sh`创建项目
-```sh
-sh ./creatProject.sh
+# 代码翻译器
+
+简介:
+本项目可以将中文的代码翻译成英文,让编译器能够识别
+
+### 支持的语言
+JavaScript: 中文->english
+HTML: 中文->english
+### 后续支持
+CSS: 中文<->english
+CPP: 中文<->english
+Java: 中文<->english
+JavaScript: 中文<->english
+HTML: 中文<->english
+
+CSS: русский->english
+CPP: русский->english
+Java: русский->english
+JavaScript: русский->english
+HTML: русский->english
+
+## 使用方法
+1.运行安装脚本
+```shell
+sh ./Install.sh
 ```
-## 2.翻译
-使用`build.sh`+文件名编译
-```sh
-sh ./build.sh 文件名
+或者直接
+```shell
+npm i -g
 ```
-## 3.运行
-build.sh会自动运行JS
+2.翻译
+运行安装脚本
+```shell
+cnjs <cnjs文件> <目标文件>
+cnhtml <cnhtm文件> <目标文件>
+```
+
+### 开发团队
+网络风暴
+
+### 版权声明
+需要经过网络风暴审核后方可免费获取版权

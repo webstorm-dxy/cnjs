@@ -1,0 +1,24 @@
+{
+  "name": "ctt",
+  "version": "1.0.0",
+  "description": "ctt",
+  "main": "build.js",
+  "bin": {
+    "cnjs": "./build.js",
+    "cnhtml": "./translateHTML.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webstorm-dxy/cnjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webstorm-dxy/cnjs/issues"
+  },
+  "homepage": "https://github.com/webstorm-dxy/cnjs#readme"
+}

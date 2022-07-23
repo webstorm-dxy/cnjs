@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 //定义相对应的关键字
 const CNKey = ["out", 
   "cao", 
@@ -86,9 +87,9 @@ for (let i = 0; i < JSKey.length; i++) {
 
 //将转换后的代码写入一个js里
 const fs = require('fs');
-const basePath = './src';
+const basePath = '';
 const binPath = './bin'
-const filepath = `${basePath}/${process.argv[2]}.cnhtm`;
+const filepath = `${process.argv[2]}`;
 //读取和写入文件
 let fileData = fs.readFileSync(filepath, 'utf-8');
 //替换关键字
@@ -96,7 +97,7 @@ for (const CNcode in CNWordMap) {
   fileData = fileData.replace(new RegExp(CNcode, 'g'), CNWordMap[CNcode]);
 }
 //输出编译后的JS文件
-fs.writeFile(`${binPath}/${process.argv[2]}.html`, fileData, { 'flag': 'w' }, err => {
+fs.writeFile(`${process.argv[3]}`, fileData, { 'flag': 'w' }, err => {
   if (err) {
     throw err;
   }
