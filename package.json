@@ -6,7 +6,8 @@
   "bin": {
     "cnjs": "./build.js",
     "cnhtml": "./translateHTML.js",
-    "cncpp": "./translateCPP.js"
+    "cncpp": "./translateCPP.js",
+    "enjs": "./TranslateENJS.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
