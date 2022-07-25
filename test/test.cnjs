@@ -1,0 +1,5 @@
+out("hello world")
+
+变量循环(让 i=0;i<10;i加一){
+    out("hello");
+}

@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 //定义相对应的关键字
-const CNKey = ["out", 
+const CNKey = ["调试输出", 
   "cao", 
   "终端", 
   "输出日志", 
@@ -14,11 +14,12 @@ const CNKey = ["out",
   "常量",
   "让",
   "函数",
-  "在",
+  " 在 ",
   "为",
   "抛出",
   "大于",
-  "加一"
+  "加一",
+  "否则"
 ]
 const JSKey = ["console.log",
   "console.log(\"What's up\")", 
@@ -34,11 +35,12 @@ const JSKey = ["console.log",
   "const",
   "let",
   "function",
-  "in",
+  " in ",
   " = ",
   "throw",
   " > ",
-  "++"
+  "++",
+  "else"
 ]
 
 //解释的关键字
