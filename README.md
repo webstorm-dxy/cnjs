@@ -1,23 +1,23 @@
 # 代码翻译器
 
 简介:
-本项目可以将中文的代码翻译成英文,让编译器能够识别
+本项目可以将中文的代码翻译成英文,让编译器能够识别,也可以把英文的源代码翻译成中文,增加可读性
 
 ### 支持的语言
-JavaScript: 中文->english
-HTML: 中文->english
+JavaScript: 中文<->english<br>
+HTML: 中文->english<br>
+CPP: 中文->english<br>
 ### 后续支持
-CSS: 中文<->english
-CPP: 中文<->english
-Java: 中文<->english
-JavaScript: 中文<->english
-HTML: 中文<->english
+CSS: 中文<->english <br>
+CPP: 中文<->english<br>
+Java: 中文<->english<br>
+HTML: 中文<->english<br>
 
-CSS: русский->english
-CPP: русский->english
-Java: русский->english
-JavaScript: русский->english
-HTML: русский->english
+CSS: русский->english<br>
+CPP: русский->english<br>
+Java: русский->english<br>
+JavaScript: русский->english<br>
+HTML: русский->english<br>
 
 ## 使用方法
 1.运行安装脚本
@@ -31,10 +31,13 @@ npm i -g
 2.翻译
 运行安装脚本
 ```shell
-cnjs <cnjs文件> <目标文件>
+cnjs <cnjs文件> <目标文件> <外接翻译库名>
 cnhtml <cnhtm文件> <目标文件>
 ```
-
+比如说要编译一个有Vue的文件
+```shell
+cnjs ./index.cnjs ./index.js vue
+```
 ### 开发团队
 网络风暴
 
