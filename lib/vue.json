@@ -1,10 +1,22 @@
 {
     "CNKeyWord":[
         "创建应用",
-        "数据"
+        "数据",
+        "方法",
+        "准备",
+        "配置",
+        "未处理错误",
+        "错误",
+        "注册组件"
     ],
     "ENKeyWord":[
         "creatApp",
-        "date"
+        "date",
+        "methods",
+        "mount",
+        "config",
+        "errorHandler",
+        "err",
+        "component"
     ]
 }

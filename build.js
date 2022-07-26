@@ -31,7 +31,24 @@ let CNKey = ["调试输出",
     "子分支",
     "或",
     "导入",
-    "从"
+    "从",
+    "超文本标记",
+    "头",
+    "元",
+    "编码设置",
+    "名字",
+    "视图端口",
+    "上下文",
+    "宽度",
+    "设备宽",
+    "初始比例",
+    "标题",
+    "主体",
+    "一号字体",
+    "语言",
+    "简体中文",
+    "点击",
+    "输出出口"
 ]
 let JSKey = ["console.log",
     "console.log(\"What's up\")",
@@ -48,10 +65,10 @@ let JSKey = ["console.log",
     "let",
     "function",
     " in ",
-    " = ",
+    " \\= ",
     "throw",
     " > ",
-    "++",
+    "\\+\\+",
     "else",
     "global",
     "typeof",
@@ -64,7 +81,24 @@ let JSKey = ["console.log",
     "case",
     "\\|\\|",
     "import",
-    "from"
+    "from",
+    "html",
+    "head",
+    "meta",
+    "charset",
+    "name",
+    "viewport",
+    "content",
+    "width",
+    "device-width",
+    "initial-scale",
+    "title",
+    "body",
+    "h1",
+    "lang",
+    "zh-cn",
+    "click",
+    "export"
 ]
 
 const fs = require('fs');
@@ -92,6 +126,9 @@ for (let i = 4; i < process.argv.length; i++) {
         for(const KeyWord in VFCJSON.ENKeyWord){
             JSKey.push(VFCJSON.ENKeyWord[KeyWord]);
         }
+    }
+    if(process.argv[i]=="elementui"){
+        console.log("❌ 错误: JS不支持翻译elementui,若需翻译element,请使用CNHTML")
     }
 }
 

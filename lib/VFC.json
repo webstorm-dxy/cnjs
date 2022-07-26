@@ -1,8 +1,44 @@
 {
     "CNKeyWord":[
-        "次数"
+        "次数",
+        "输出",
+        "未定义",
+        "对象",
+        "模块",
+        "定义",
+        "工厂",
+        "依赖",
+        "当前对象",
+        "当前对象",
+        "自己",
+        "记号",
+        "记号",
+        "原型",
+        "原型",
+        "到",
+        "到",
+        "值",
+        "数组"
     ],
     "ENKeyWord":[
-        "count"
+        "count",
+        "exports",
+        "undefined",
+        "object",
+        "module",
+        "define",
+        "factory",
+        "require",
+        "this",
+        "This",
+        "self",
+        "Symbol",
+        "symbol",
+        "Prototype",
+        "prototype",
+        "to",
+        "To",
+        "value",
+        "array"
     ]
 }
