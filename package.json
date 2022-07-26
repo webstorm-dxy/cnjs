@@ -7,7 +7,8 @@
     "cnjs": "./build.js",
     "cnhtml": "./translateHTML.js",
     "cncpp": "./translateCPP.js",
-    "enjs": "./translateENJS.js"
+    "enjs": "./translateENJS.js",
+    "enhtml": "./translateENHTML.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

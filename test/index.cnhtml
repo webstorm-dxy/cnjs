@@ -1,0 +1,17 @@
+<!文档类型 超文本标记>
+<超文本标记 语言="">
+  <头>
+    <元 编码设置="utf-8">
+    <元 http-equiv="X-UA-Compatible" 上下文="IE=edge">
+    <元 名字="视图端口" 上下文="宽度=设备-宽度,初始比例=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <标题><%= 超文本标记WebpackPlugin.options.标题 %></标题>
+  </头>
+  <主体>
+    <no脚本>
+      <strong>We're sorry but <%= 超文本标记WebpackPlugin.options.标题 %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </no脚本>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </主体>
+</超文本标记>

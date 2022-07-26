@@ -1,5 +1,9 @@
-out("hello world")
+导入 { 创建应用 } from 'vue'
 
-变量循环(让 i=0;i<10;i加一){
-    out("hello");
-}
+创建应用({
+  数据() {
+    返回 {
+      count: 0
+    }
+  }
+}).mount('#app')
